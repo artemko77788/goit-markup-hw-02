@@ -1,0 +1,44 @@
+:root {
+  --primary-text-color: #212121;
+  --secondery-text-color: #757575;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--white-color);
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0, 03em;
+}
+.list {
+  list-style: none;
+}
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
+.logo > span {
+  color: var(--accent-color);
+}
+
+.item a {
+  font-weight: 500;
+  line-height: 1,1;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
