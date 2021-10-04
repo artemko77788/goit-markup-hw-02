@@ -12,7 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -20,18 +20,24 @@
 
     <header>
       <nav>
-        <a href="/" lang="en"><span>Web</span>Studio</a>
+        <a href="/" lang="en" class="logo"
+          ><span class="item">Web</span>Studio</a
+        >
 
-        <ul class="list">
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <ul class="list main-nav">
+          <li><a href="/index.html" class="item">Студия</a></li>
+          <li><a href="/portfolio.html" class="item">Портфолио</a></li>
+          <li><a href="" class="item">Контакты</a></li>
         </ul>
       </nav>
 
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="list connect-header">
+        <li>
+          <a href="mailto:info@devstudio.com" class="item"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li><a href="tel:+380961111111" class="item">+38 096 111 11 11</a></li>
       </ul>
     </header>
 
