@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Студия</title>
+    <title>Портфолио</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,12 +19,12 @@
     <!-- Шапка страницы -->
 
     <header>
-      <nav>
+      <nav class="main-nav">
         <a href="/" lang="en" class="logo"
-          ><span class="item">Web</span>Studio</a
+          ><span class="text">Web</span>Studio</a
         >
 
-        <ul class="list main-nav">
+        <ul class="list">
           <li><a href="/index.html" class="item">Студия</a></li>
           <li><a href="/portfolio.html" class="item">Портфолио</a></li>
           <li><a href="" class="item">Контакты</a></li>
@@ -43,16 +43,16 @@
 
     <main>
       <!-- Portfolio buttons -->
-      <ul>
-        <li><button type="button">Все</button></li>
-        <li><button type="button">Веб-сайты</button></li>
-        <li><button type="button">Приложения</button></li>
-        <li><button type="button">Дизайн</button></li>
-        <li><button type="button">Маркетинг</button></li>
+      <ul class="list portfolio-btn">
+        <li><button type="button" class="button">Все</button></li>
+        <li><button type="button" class="button">Веб-сайты</button></li>
+        <li><button type="button" class="button">Приложения</button></li>
+        <li><button type="button" class="button">Дизайн</button></li>
+        <li><button type="button" class="button">Маркетинг</button></li>
       </ul>
       <!-- Portfolio imagts and descriptions -->
       <h1 hidden>Примеры работ</h1>
-      <ul>
+      <ul class="list portfolio-items">
         <li>
           <img
             src="./images/porttfolio-images/note-book.jpg"
@@ -60,7 +60,7 @@
             width="370"
             height="294"
           />
-          <h2>Технокряк</h2>
+          <h2 class="subtitle">Технокряк</h2>
           <p>Веб-сайт</p>
         </li>
         <li>
@@ -70,7 +70,9 @@
             width="370"
             height="294"
           />
-          <h2>Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+          <h2 class="subtitle">
+            Постер <span lang="en">New Orlean vs Golden Star</span>
+          </h2>
           <p>Дизайн</p>
         </li>
         <li>
@@ -80,7 +82,7 @@
             width="370"
             height="294"
           />
-          <h2>Ресторан <span lang="en">Seafood</span></h2>
+          <h2 class="subtitle">Ресторан <span lang="en">Seafood</span></h2>
           <p>Приложение</p>
         </li>
         <li>
@@ -90,7 +92,7 @@
             width="370"
             height="294"
           />
-          <h2>Проект <span lang="en">Prime</span></h2>
+          <h2 class="subtitle">Проект <span lang="en">Prime</span></h2>
           <p>Маркетинг</p>
         </li>
         <li>
@@ -100,7 +102,7 @@
             width="370"
             height="294"
           />
-          <h2>Проект <span lang="en">Boxes</span></h2>
+          <h2 class="subtitle">Проект <span lang="en">Boxes</span></h2>
           <p>Приложение</p>
         </li>
         <li>
@@ -110,7 +112,7 @@
             width="370"
             height="294"
           />
-          <h2 lang="en">Inspiration has no Borders</h2>
+          <h2 class="subtitle" lang="en">Inspiration has no Borders</h2>
           <p>Веб-сайт</p>
         </li>
         <li>
@@ -120,7 +122,9 @@
             width="370"
             height="294"
           />
-          <h2>Издание <span lang="en">Limited Edition</span></h2>
+          <h2 class="subtitle">
+            Издание <span lang="en">Limited Edition</span>
+          </h2>
           <p>Дизайн</p>
         </li>
         <li>
@@ -130,7 +134,7 @@
             width="370"
             height="294"
           />
-          <h2>Проект <span lang="en">LAB</span></h2>
+          <h2 class="subtitle">Проект <span lang="en">LAB</span></h2>
           <p>Маркетинг</p>
         </li>
         <li>
@@ -140,23 +144,33 @@
             width="370"
             height="294"
           />
-          <h2 lang="en">Growing Business</h2>
+          <h2 class="subtitle" lang="en">Growing Business</h2>
           <p>Приложение</p>
         </li>
       </ul>
     </main>
 
     <footer>
-      <a href="/" lang="en"> <span>Web</span>Studio </a>
+      <div class="main-footer">
+        <a href="/" lang="en" class="logo"
+          ><span class="text">Web</span>Studio
+        </a>
 
-      <address>
-        г. Киев, пр-т Леси Украинки, 26
+        <address class="address">
+          г. Киев, пр-т Леси Украинки, 26
 
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
-      </address>
+          <ul class="list contact-footer">
+            <li>
+              <a href="mailto:info@devstudio.com" class="item"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+380961111111" class="item">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
