@@ -22,7 +22,6 @@ body {
   line-height: 1.2;
   color: var(--primary-text-color);
   text-decoration: none;
-
 }
 
 .logo:hover,
@@ -151,19 +150,15 @@ body {
   letter-spacing: 0.06em;
 }
 
-.portfolio-items p{
-    color: var(--secondery-text-color);
-
+.portfolio-items p {
+  color: var(--secondery-text-color);
 }
-
-
 
 /* footer */
 .contact-footer .item {
   font-weight: 400;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-
 }
 .contact-footer .item:hover,
 .contact-footer .item:focus {
@@ -172,7 +167,6 @@ body {
 
 .main-footer .logo {
   color: var(--white-color);
-
 }
 .address {
   color: var(--white-color);
