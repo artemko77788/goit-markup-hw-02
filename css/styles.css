@@ -35,7 +35,7 @@ body {
   color: var(--accent-color);
 }
 
-.main-nav .item {
+.main-nav .item{
   text-decoration: none;
   font-weight: 500;
   line-height: 1.2;
@@ -47,9 +47,13 @@ body {
   color: var(--accent-color);
 }
 
-.current {
-  background-color: var(--accent-color);
+.main-nav .current {
+  color: var(--accent-color);
 }
+
+
+
+
 .connect-header .item {
   color: var(--secondery-text-color);
   text-decoration: none;
